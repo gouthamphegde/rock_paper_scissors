@@ -13,11 +13,12 @@ def play_r():
 
 
 def is_win(player,opponent):
-  
+  #Decide Winner for a round
     if(player == 'r' and opponent == 's') or (player == 's' and opponent == 'p') or (player == 'p' and opponent == 'r'):
         return True
 
 def play():
+    #Main Game Controller Function
     rounds = 3
     win = 0
     lost = 0
